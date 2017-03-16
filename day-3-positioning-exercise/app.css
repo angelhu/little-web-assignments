@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.box {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 640px;
+  width: 595px;
+  border: solid 2px rgba(204, 205, 211, 1.0);
+  border-radius: 10px;
+  position: relative;
+}
+
+.circle{
+  background-color: rgba(206, 207, 213, 1.0);
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  text-align: center;
+  right: -35px;
+  top: 80px;
+}
+
+p {
+  color: white;
+  font-size: 50px;
+  font-family: Verdana;
+  text-align: center;
+  line-height: 130px;
+}
+
+h1 {
+  color: rgba(87, 177, 83, 1.0);
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-left: 75px;
+}
+
+h2 {
+  color: rgba(151, 153, 166, 1.0);
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+li {
+  color: rgba(206, 207, 213, 1.0);
+  list-style: square;
+  list-style-position: inside;
+  font-size: 30px;
+}
+
+span {
+  color: rgba(51, 131, 200, 1.0);
+  line-height: 40px;
+  font-size: 30px;
+  margin-left: -25px;
+  border-bottom: solid 2px rgba(206, 207, 213, 1.0);
+  line-height: 50px;
+}
+
+.css {
+  font-family: Helvetica;
+  position: relative;
+  left: 75px;
+  top: 75px;
+}
+
+.share {
+  font-family: Helvetica;
+  position: relative;
+  left: 75px;
+  top: 130px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: 0;
+  padding-left: 5px;
+}
