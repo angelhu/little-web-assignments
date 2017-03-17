@@ -63,7 +63,6 @@ table {
   width: 140px;
   height: 140px;
   position: absolute;
-  text-align: center;
   right: -35px;
   top: 80px;
 }
@@ -110,16 +109,16 @@ span {
 
 .css {
   font-family: Helvetica;
-  position: relative;
+  position: absolute;
   left: 75px;
-  top: 75px;
+  top: 190px;
 }
 
 .share {
   font-family: Helvetica;
-  position: relative;
+  position: absolute;
   left: 75px;
-  top: 130px;
+  top: 475px;
 }
 
 img {
