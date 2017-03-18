@@ -106,7 +106,6 @@ h1 {
 
 .hero-message {
   color: white;
-  font-family: serif;
   text-align: center;
   padding-top: 150px;
   width: 70%;
@@ -115,17 +114,21 @@ h1 {
 
 .hero-message h1 {
   color: white;
-  font-size: 3.7em;
+  font-size: 3.2em;
   padding-top: 40px;
   line-height: 1.1em;
+	text-transform: uppercase;
+	font-family: 'Merriweather' ,serif;
+	font-weight: 100;
 }
 
 .hero-message p {
-  font-family: Helvetica, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
   margin: 20px 0;
   padding-bottom: 30px;
+	font-weight: 100;
 
 }
 
@@ -135,7 +138,7 @@ h1 {
   border-radius: 2px;
   color: white;
   text-decoration: none;
-  font-family: Helvetica, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
@@ -146,8 +149,10 @@ h1 {
 
 
 .recent-projects {
-  padding: 50px 0;
+  padding: 50px 60px;
   overflow: auto;
+	max-width: 1300px;
+	margin: 0 auto;
 }
 
 .projects-row {
@@ -155,15 +160,33 @@ h1 {
   margin: 0 auto;
 }
 
+.project h3 {
+	color: rgba(49, 149, 194, 1.0);
+	margin: 20px 0;
+	line-height: em;
+	font-size: 2em;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
 
-
+.project p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(132, 146, 166, 1.0);
+	margin: 20px;
+	font-style: italic;
+	line-height: 1.1em;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+ .project img {
+	 max-width: 95%;
+ }
 
 .project {
-  height: 200px;
-  width: 33.333333%;
-  background-color: pink;
-  outline: solid 1px red;
+  width: 29.333333%;
   float: left;
+	text-align: center;
+	margin: 0 2% 50px 2%;
 }
 
 
