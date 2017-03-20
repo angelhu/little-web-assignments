@@ -62,7 +62,7 @@ nav {
 
 nav li {
   float: right;
-  font-family: Helvetica, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: -10px 10px 0 10px;
   text-transform: uppercase;
   color: white;
@@ -178,7 +178,7 @@ h1 {
 	font-style: italic;
 	line-height: 1.1em;
 	font-weight: 300;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
  .project img {
@@ -248,6 +248,7 @@ h1 {
 		width: 48%;
 		float: left;
 	}
+}
 
 @media (max-width: 600px) {
 	.particular-thing {
@@ -255,12 +256,18 @@ h1 {
 		float: none;
 	}
 }
-}
+
 .quote {
   width: 90%;
   margin: 0 auto;
-  background-color: green;
   height: 200px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.3em;
+	padding-top: 60px;
+	line-height: 2.6em;
+	font-style: italic;
+	border-top: 1px dashed #bec6d0;
 }
 
 .post {
