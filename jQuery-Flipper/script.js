@@ -1,29 +1,47 @@
-function readyToGo() {
-  console.log("CUTE PUPPIES!");
-}
+$(document).ready(function(){
 
-var imageArray = new Array();
-  imageArray = ["images/1.gif", "images/2.gif", "images/3.gif", "images/4.gif", "images/5.gif", "images/6.gif"]
+  var index = 0;
+  var colors = ["pink", "green", "red", "blue", "yellow", "grey"];
+  var pictures = ["images/1.gif", "images/2.gif", "images/3.gif", "images/4.gif", "images/5.gif", "images/6.gif"];
+  var texts = ["Hacker", "Smile", "Really?", "Sold!", "Workout", "BEER!"];
+
+  $('.container').css('background-color', colors[index]);
+  $('.picture').attr('src', pictures[index]);
+  $('.text').html(texts[index]);
+
+  $('#left').on('click', function(event){
+    index--;
+    if (index < 0) {
+      index = colors.length - 1;
+    }
+    $('.container').css('background-color', colors[index]);
+    $('.picture').attr('src', pictures[index]);
+    $('.text').html(texts[index]);
+  });
+
+  $('#right').on('click', function(event){
+    index++;
+    if(index > colors.length - 1) {
+      index = 0;
+    }
+    $('.container').css('background-color', colors[index]);
+    $('.picture').attr('src', pictures[index]);
+    $('.text').html(texts[index]);
+  });
 
 
-var index = 0;
 
-function back() {
-  var picture = document.getElementById("main");
-  if(index > 0)
-  {
-    picture.src = imageArray[index-1];
-    index = index - 1;
-  }
-}
 
-function forward() {
-  var picture=document.getElementById("main");
-  if(index < (imageArray.length - 1))
-  {
-    picture.src = imageArray[index+1];
-    index = index + 1;
-  }
-}
 
-$(document).ready(readyToGo);
+
+
+
+
+
+
+
+
+
+
+
+});

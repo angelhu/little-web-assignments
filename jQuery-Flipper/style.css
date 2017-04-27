@@ -48,22 +48,23 @@ table {
 }
 
 .container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
+  height: 800px;
+}
+
+.buttons {
+	text-align: center;
+	padding-top: 30px;
+}
+
+img{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+p {
   text-align: center;
-  padding-top: 100px;
-}
-
-#previous {
-  margin-right: 50px;
-  cursor: pointer;
-}
-
-#next {
-  margin-left: 50px;
-  cursor: pointer;
-}
-
-#pictures {
-  margin-top: 50px;
 }
